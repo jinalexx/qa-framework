@@ -3,6 +3,8 @@
 A Selenium-based test automation framework for a job board web application, built with Python, pytest, and Page Object Model design pattern.
 
 ## Project Structure
+
+```
 qa-framework/
 ├── app.py              # Flask web application (job board)
 ├── conftest.py         # pytest fixtures and configuration
@@ -11,7 +13,10 @@ qa-framework/
 ├── tests/
 │   └── test_job_board.py  # Test cases
 ├── reports/            # HTML test reports and screenshots
-└── .github/workflows/  # CI/CD pipeline
+└── .github/
+    └── workflows/
+        └── tests.yml   # CI/CD pipeline
+```
 
 ## Features
 
